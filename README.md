@@ -254,24 +254,8 @@ NEXT_PUBLIC_API_URL=http://localhost:5000
 Detailed Architecture & Design Patterns
 System Architecture Overview
 The E-commerce Shopping Bot follows a modern, scalable architecture pattern that separates concerns while maintaining tight integration between components:
-┌─────────────────┐    ┌──────────────────┐    ┌─────────────────┐
-│   Frontend      │    │    Backend       │    │   AI Service   │
-│   (Next.js)     │◄──►│    (Flask)       │◄──►│    (Groq)      │
-│                 │    │                  │    │                 │
-│ • Chat UI       │    │ • API Routes     │    │ • LLM Model    │
-│ • State Mgmt    │    │ • Query Engine   │    │ • NLP Process  │
-│ • Components    │    │ • Database ORM   │    │ • SQL Generate │
-└─────────────────┘    └──────────────────┘    └─────────────────┘
-         │                       │
-         │                       │
-         ▼                       ▼
-┌─────────────────┐    ┌──────────────────┐
-│   Local Storage │    │   SQLite DB      │
-│                 │    │                  │
-│ • Chat History  │    │ • Product Data   │
-│ • User Prefs    │    │ • Categories     │
-│ • Session Data  │    │ • Inventory      │
-└─────────────────┘    └──────────────────┘
+![image](https://github.com/user-attachments/assets/78976a10-d26f-49b8-8fb9-dcc951e209c9)
+
 Frontend Architecture Deep Dive
 Component Hierarchy & Design Patterns
 The frontend employs a hierarchical component structure with clear separation of responsibilities:
