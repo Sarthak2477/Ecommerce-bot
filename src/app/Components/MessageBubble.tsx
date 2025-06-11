@@ -23,7 +23,15 @@ export const MessageBubble: React.FC<MessageBubbleProps> = ({ message }) => {
           </div>
         )}
 
-        
+      <div
+          className={`rounded-2xl px-4 py-3 ${
+            isBot
+              ? 'bg-gray-100 text-gray-800'
+              : 'bg-blue-600 text-white'
+          }`}
+        >
+          <p className="text-sm leading-relaxed">{message.content}</p>
+        </div>
 
         {message.products && message.products.length > 0 && (
           <div className="mt-3 space-y-3">
