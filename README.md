@@ -78,14 +78,22 @@ pip install flask flask-sqlalchemy flask-cors groq
 # Set up Groq API key
 # Replace the API key in groq_utils.py with your own key
 ```
+### 4. Set your Groq API key
 
-### 4. Database Initialization
+Create a .env file in the root directory.
+
+Add the following line:
+```
+GROQ_API_KEY=gsk_your_actual_key_here
+```
+
+### 5. Database Initialization
 ```bash
 # Initialize the database with mock data
 python init_db.py
 ```
 
-### 5. Start Backend Server
+### 6. Start Backend Server
 ```bash
 # Run the Flask server
 python app.py
