@@ -1,0 +1,80 @@
+products = [
+    {
+        'id': '1',
+        'name': 'iPhone 15 Pro Max',
+        'price': 1199,
+        'original_price': 1299,
+        'image': 'https://images.pexels.com/photos/788946/pexels-photo-788946.jpeg',
+        'category': 'Smartphones',
+        'description': 'Latest iPhone with titanium design and advanced camera system',
+        'rating': 4.8,
+        'reviews': 2547,
+        'in_stock': True,
+        'tags': ['Apple', '5G', 'Pro Camera', 'Titanium']
+    },
+    {
+        'id': '2',
+        'name': 'MacBook Air M2',
+        'price': 999,
+        'original_price': 1199,
+        'image': 'https://images.pexels.com/photos/18105/pexels-photo.jpg',
+        'category': 'Laptops',
+        'description': 'Ultra-thin laptop with M2 chip for incredible performance',
+        'rating': 4.9,
+        'reviews': 1834,
+        'in_stock': True,
+        'tags': ['Apple', 'M2 Chip', 'Lightweight', 'Long Battery']
+    },
+    {
+        'id': '3',
+        'name': 'Sony WH-1000XM5',
+        'price': 349,
+        'original_price': 399,
+        'image': 'https://images.pexels.com/photos/3394650/pexels-photo-3394650.jpeg',
+        'category': 'Audio',
+        'description': 'Premium noise-canceling wireless headphones',
+        'rating': 4.7,
+        'reviews': 3241,
+        'in_stock': True,
+        'tags': ['Wireless', 'Noise Canceling', 'Premium Audio', 'Long Battery']
+    },
+    {
+        'id': '4',
+        'name': 'Samsung Galaxy S24 Ultra',
+        'price': 1099,
+        'original_price': None,
+        'image': 'https://images.pexels.com/photos/699122/pexels-photo-699122.jpeg',
+        'category': 'Smartphones',
+        'description': 'Flagship Android phone with S Pen and 200MP camera',
+        'rating': 4.6,
+        'reviews': 1923,
+        'in_stock': False,
+        'tags': ['Samsung', 'S Pen', '200MP Camera', 'AI Features']
+    },
+    {
+        'id': '5',
+        'name': 'iPad Pro 12.9"',
+        'price': 1099,
+        'original_price': 1199,
+        'image': 'https://images.pexels.com/photos/1334597/pexels-photo-1334597.jpeg',
+        'category': 'Tablets',
+        'description': 'Professional tablet with M2 chip and Liquid Retina display',
+        'rating': 4.8,
+        'reviews': 1456,
+        'in_stock': True,
+        'tags': ['Apple', 'M2 Chip', 'Liquid Retina', 'Apple Pencil']
+    },
+    {
+        'id': '6',
+        'name': 'Gaming Mechanical Keyboard',
+        'price': 149,
+        'original_price': 199,
+        'image': 'https://images.pexels.com/photos/2115257/pexels-photo-2115257.jpeg',
+        'category': 'Gaming',
+        'description': 'RGB mechanical keyboard with Cherry MX switches',
+        'rating': 4.5,
+        'reviews': 892,
+        'in_stock': True,
+        'tags': ['Mechanical', 'RGB', 'Gaming', 'Cherry MX']
+    }
+]
